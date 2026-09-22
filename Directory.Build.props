@@ -28,8 +28,8 @@
     <Authors>Albin</Authors>
     <Company>Albin Incorporation</Company>
     <Copyright>Copyright (c) Albin</Copyright>
-    <RepositoryUrl>https://github.com/albin/Albin.Export</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/albin/Albin.Export</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/albin-anthony-john/albin-export</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/albin-anthony-john/albin-export</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>export;pdf;excel;csv;html;word;docx;json;xml;markdown;zip;svg;png;echarts;report;reporting;aspnetcore</PackageTags>
