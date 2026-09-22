@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Albin.Export.Csv</PackageId>
+    <Description>
+      CSV export for Albin.Export, built on CsvHelper. Streams rows straight to the output, handles
+      quoting, delimiters, culture and UTF-8, and escapes formula-injection payloads by default.
+    </Description>
+    <RootNamespace>Albin.Export.Csv</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" />
+    <ProjectReference Include="..\Albin.Export\Albin.Export.csproj" />
+  </ItemGroup>
+
+</Project>

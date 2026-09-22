@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Albin.Export.Benchmarks</RootNamespace>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Albin.Export\Albin.Export.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Chart\Albin.Export.Chart.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Csv\Albin.Export.Csv.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Excel\Albin.Export.Excel.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Html\Albin.Export.Html.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Json\Albin.Export.Json.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Markdown\Albin.Export.Markdown.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Pdf\Albin.Export.Pdf.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Xml\Albin.Export.Xml.csproj" />
+  </ItemGroup>
+
+</Project>

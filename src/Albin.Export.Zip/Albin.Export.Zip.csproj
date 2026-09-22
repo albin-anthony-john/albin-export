@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Albin.Export.Zip</PackageId>
+    <Description>
+      ZIP packaging for Albin.Export using System.IO.Compression. Bundles several ExportResult objects
+      or arbitrary entries into one archive, streaming entry content and blocking path traversal in
+      entry names.
+    </Description>
+    <RootNamespace>Albin.Export.Zip</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Albin.Export\Albin.Export.csproj" />
+  </ItemGroup>
+
+</Project>

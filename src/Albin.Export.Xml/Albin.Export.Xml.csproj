@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Albin.Export.Xml</PackageId>
+    <Description>
+      XML export for Albin.Export using the built-in .NET XML writers. Streams a safe, indented
+      UTF-8 document, with an opt-in XmlSerializer mode for DTO shaped output.
+    </Description>
+    <RootNamespace>Albin.Export.Xml</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Albin.Export\Albin.Export.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Albin.Export.Markdown</PackageId>
+    <Description>
+      Markdown export for Albin.Export. Writes GitHub flavoured headings, paragraphs and pipe tables
+      with no third-party Markdown dependency.
+    </Description>
+    <RootNamespace>Albin.Export.Markdown</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Albin.Export\Albin.Export.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Albin.Export.Html</PackageId>
+    <Description>
+      HTML export for Albin.Export. Produces a clean, responsive, print-friendly standalone document
+      (or an embeddable fragment) with every value HTML-encoded. Charts render as inline SVG or as an
+      Apache ECharts container for client-side rendering.
+    </Description>
+    <RootNamespace>Albin.Export.Html</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Albin.Export\Albin.Export.csproj" />
+    <ProjectReference Include="..\Albin.Export.Chart\Albin.Export.Chart.csproj" />
+  </ItemGroup>
+
+</Project>

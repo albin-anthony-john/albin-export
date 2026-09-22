@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Albin.Export.Pdf</PackageId>
+    <Description>
+      PDF export for Albin.Export, built on PDFsharp and MigraDoc. Headings, paragraphs, paginated
+      tables with repeating headers, images, charts, page headers and footers, margins, fonts and
+      orientation, rendered straight to a stream. Includes a cross-platform system font resolver so
+      the same code works on Windows, Linux and in containers.
+    </Description>
+    <RootNamespace>Albin.Export.Pdf</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PDFsharp-MigraDoc" />
+    <ProjectReference Include="..\Albin.Export\Albin.Export.csproj" />
+    <ProjectReference Include="..\Albin.Export.Chart\Albin.Export.Chart.csproj" />
+  </ItemGroup>
+
+</Project>

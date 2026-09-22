@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <RootNamespace>Albin.Export.Demo</RootNamespace>
+    <Description>ASP.NET Core Web API demonstrating buffered and streamed Albin.Export responses.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Albin.Export\Albin.Export.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.AspNetCore\Albin.Export.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Chart\Albin.Export.Chart.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Csv\Albin.Export.Csv.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Excel\Albin.Export.Excel.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Html\Albin.Export.Html.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Json\Albin.Export.Json.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Markdown\Albin.Export.Markdown.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Pdf\Albin.Export.Pdf.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Word\Albin.Export.Word.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Xml\Albin.Export.Xml.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Zip\Albin.Export.Zip.csproj" />
+  </ItemGroup>
+
+</Project>

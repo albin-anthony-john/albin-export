@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Albin.Export.Word</PackageId>
+    <Description>
+      Word (.docx) export for Albin.Export, built on the Open XML SDK. Supports headings, paragraphs,
+      tables with repeating header rows, images, charts, page headers and footers with page numbers.
+    </Description>
+    <RootNamespace>Albin.Export.Word</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" />
+    <ProjectReference Include="..\Albin.Export\Albin.Export.csproj" />
+    <ProjectReference Include="..\Albin.Export.Chart\Albin.Export.Chart.csproj" />
+  </ItemGroup>
+
+</Project>

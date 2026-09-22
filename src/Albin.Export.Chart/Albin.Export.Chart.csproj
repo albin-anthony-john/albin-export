@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Albin.Export.Chart</PackageId>
+    <Description>
+      Chart output for Albin.Export: an Apache ECharts option builder, a server-side SVG renderer and a
+      dependency-free PNG rasterizer. No browser runtime and no native image library required.
+    </Description>
+    <RootNamespace>Albin.Export.Chart</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Albin.Export\Albin.Export.csproj" />
+  </ItemGroup>
+
+</Project>

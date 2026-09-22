@@ -1,0 +1,38 @@
+<Project>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>9999</WarningLevel>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <AccelerateBuildsInVisualStudio>true</AccelerateBuildsInVisualStudio>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <!-- Deterministic / reproducible builds. -->
+  <PropertyGroup>
+    <Deterministic>true</Deterministic>
+    <DeterministicSourcePaths Condition="'$(ContinuousIntegrationBuild)' == 'true'">true</DeterministicSourcePaths>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+
+  <!-- Shared package identity. Individual projects override PackageId/Description. -->
+  <PropertyGroup>
+    <Product>Albin.Export</Product>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <Authors>Albin</Authors>
+    <Company>Albin Incorporation</Company>
+    <Copyright>Copyright (c) Albin</Copyright>
+    <RepositoryUrl>https://github.com/albin/Albin.Export</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/albin/Albin.Export</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>export;pdf;excel;csv;html;word;docx;json;xml;markdown;zip;svg;png;echarts;report;reporting;aspnetcore</PackageTags>
+  </PropertyGroup>
+
+</Project>

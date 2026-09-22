@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Albin.Export.Tests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" />
+    <PackageReference Include="xunit.v3" />
+    <PackageReference Include="xunit.runner.visualstudio" />
+    <PackageReference Include="coverlet.collector" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Albin.Export\Albin.Export.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.AspNetCore\Albin.Export.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Chart\Albin.Export.Chart.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Csv\Albin.Export.Csv.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Excel\Albin.Export.Excel.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Html\Albin.Export.Html.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Json\Albin.Export.Json.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Markdown\Albin.Export.Markdown.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Pdf\Albin.Export.Pdf.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Word\Albin.Export.Word.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Xml\Albin.Export.Xml.csproj" />
+    <ProjectReference Include="..\..\src\Albin.Export.Zip\Albin.Export.Zip.csproj" />
+    <ProjectReference Include="..\..\samples\Albin.Export.Demo\Albin.Export.Demo.csproj" />
+  </ItemGroup>
+
+</Project>

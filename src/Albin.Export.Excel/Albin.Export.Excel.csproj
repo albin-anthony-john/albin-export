@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Albin.Export.Excel</PackageId>
+    <Description>
+      Excel (.xlsx) export for Albin.Export, built on ClosedXML. One worksheet per table with typed
+      cells, header styling, freeze panes, auto-filter, column sizing, number formats, totals and
+      optional formulas.
+    </Description>
+    <RootNamespace>Albin.Export.Excel</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" />
+    <ProjectReference Include="..\Albin.Export\Albin.Export.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>Albin.Export.Json</PackageId>
+    <Description>
+      JSON export for Albin.Export using System.Text.Json. Serializes the original DTOs directly to
+      the output stream as UTF-8, with fully configurable JsonSerializerOptions.
+    </Description>
+    <RootNamespace>Albin.Export.Json</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Albin.Export\Albin.Export.csproj" />
+  </ItemGroup>
+
+</Project>
