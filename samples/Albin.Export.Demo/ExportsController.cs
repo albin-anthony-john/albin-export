@@ -16,21 +16,15 @@ namespace Albin.Export.Demo;
 
 [ApiController]
 [Route("api")]
-public sealed class ExportsController : ControllerBase
+public sealed class ExportsController(IExportService export, SalesReportService reports) : ControllerBase
 {
     private static readonly string[] FileFormats =
     [
         "pdf", "xlsx", "csv", "html", "docx", "json", "xml", "md", "svg", "png", "echarts",
     ];
 
-    private readonly IExportService _export;
-    private readonly SalesReportService _reports;
-
-    public ExportsController(IExportService export, SalesReportService reports)
-    {
-        _export = export;
-        _reports = reports;
-    }
+    private readonly IExportService _export = export;
+    private readonly SalesReportService _reports = reports;
 
     /// <summary>JSON catalog of every export endpoint.</summary>
     [HttpGet]
